@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #6e41e2;
+    border-radius: .8rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #5835b0;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-family: "Montserrat";
+}
+.nav-link{
+    font-family: "Roboto";
+}
+.btn-outline-primary{
+    color: #6e41e2 !important;
+    border-color: #6e41e2 !important;
+}
+.btn-outline-primary:hover{
+    color: white !important;
+    background-color: #6e41e2 !important;
+}
+.btn-primary{
+    background-color: #6e41e2 !important;
+    border-color: #6e41e2 !important;
+}
+.btn-primary:hover{
+    background-color: #5835B0 !important;
+    border-color: #6e41e2 !important;
+}
+
+.nav-text{
+    text-transform: uppercase !important; 
+    letter-spacing: 2px !important;
+}
+
+@media only screen and (min-width: 590px) {
+    #purple-header{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 80vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #purple-header{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 23vw;
+    }
+    .card img{
+        max-height: 10rem;
+        object-fit: cover;
+    }
+    #seeMore{
+        max-width: 12vw;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #purple-header{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 25vw;
+    }
+    .card img{
+        max-height: 10rem;
+        object-fit: cover;
+    }
+}
