@@ -1,0 +1,175 @@
+body {
+    overflow-x: hidden;
+}
+
+.main .headerMain {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.main .headerMain h1 {
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.main .headerMain a {
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: .9rem;
+    color: #6E41E2;
+    text-decoration: none;
+    
+    z-index: 1000
+}
+
+.main .headerMain a:hover {
+    text-decoration: underline;
+}
+
+.main .body {
+    width: 100vw;
+    
+    justify-content: center;
+}
+
+.main .body .card {
+    background-color: #6E41E2;
+    border-radius: 8px;
+    
+}
+
+.main .body .card .content {
+  
+    display: flex;    
+
+}
+
+.main .body .card .content .contentContainer {
+    width: 66.5%;
+    height: 9rem;
+    
+}
+
+
+.main .body .card .content .contentContainer .card-body {
+    text-align: left;
+    align-items: left;
+    color: white;
+    
+}
+
+.main .body .card .content .contentContainer .card-body span {
+    color: #6E41E2;
+    font-size:1rem ;
+    font-family: "Roboto";
+    font-weight: 700;
+    
+}
+
+.main .body .card .content .contentContainer .card-body h5 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .2rem;
+    margin-top:.5rem;
+}
+
+.main .body .card .content .contentContainer .card-body p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-left: .2rem;
+}
+
+
+
+.main .body .card .img {
+    align-items:center;
+    align-content: flex-end;
+    text-align: center;
+    width: 33.5%;
+    z-index: 1000;
+    
+}
+
+
+.main .body .card .img img{
+    width: 8em;
+    margin: .5rem;
+    align-self: center;
+    border-radius: 100%;
+    
+    border: 5px solid white;
+}
+
+.main .body .card .footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.main .body .card .footer .button {
+    margin: 2rem;
+   
+}
+.main .body .card .footer .button a{
+    color: white; 
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.3rem;
+    border: .2rem solid white;
+    border-radius: 8px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    
+}
+
+.main .body .card .footer .habilidades {
+    display: flex;
+    align-items: center;
+    
+}
+
+.main .body .card .footer .habilidades img {
+    width: 2rem;
+    border: 100%;
+    margin-right: .5rem;
+    
+}
+
+.main .body .card .footer .habilidades span {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: white;
+    margin-right: 1.2rem;
+
+}
+
+@media screen and (min-width:1100px) { 
+    
+    .main .headerMain h1 {
+        
+        font-size: 4rem;
+    }
+
+    .main .headerMain a {
+        font-size: 1.3rem;
+        z-index: 1000
+    }
+    
+    .main .body .card {
+        padding: 1rem;
+    }
+
+    .main .body .card:first-child{
+        margin-right: 3rem;
+        right: -2rem;
+        
+    }
+}
