@@ -18,6 +18,7 @@
 }
 .navbar-brand{
     font-family: "Montserrat";
+    text-transform: uppercase;
 }
 .nav-link{
     font-family: "Roboto";
