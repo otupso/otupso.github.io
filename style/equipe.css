@@ -5,14 +5,13 @@ body {
 .main .headerMain {
     display: flex;
     align-items: center;
-    
 }
 
 
 .main .headerMain h1 {
     font-weight: 700;
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem;
 }
 
@@ -152,10 +151,12 @@ body {
 }
 
 @media screen and (min-width:1100px) { 
-    
+    #purple-header{
+        max-width: 100%;
+    }
+
     .main .headerMain h1 {
-        
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .main .headerMain a {
