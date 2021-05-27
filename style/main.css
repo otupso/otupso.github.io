@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6e41e2;
+    border-radius: .8rem;   
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5835b0;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-brand{
+    font-family: "Montserrat";
+}
+
+.nav-link{
+    font-family: "Roboto";
+}
+
+.btn-outline-primary{
+    color: #6e41e2 !important;
+    border-color: #6e41e2 !important;
+}
+
+.btn-outline-primary:hover{
+    color: white !important;
+    background-color: #6e41e2 !important;
+}
+
+.btn-primary{
+    background-color: #6e41e2 !important;
+    border-color: #6e41e2 !important;
+}
+
+.btn-primary:hover{
+    background-color: #5835B0 !important;
+    border-color: #6e41e2 !important;
+}
