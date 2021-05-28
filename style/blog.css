@@ -1,0 +1,64 @@
+body{
+    background-color: #6E41E2;
+    overflow-x: hidden;
+}
+
+.btn-blog{
+    background-color: #ffffff !important;
+    color: #6E41E2;
+    border-color: #ffffff !important;
+}
+.btn-blog:hover{
+    color: white !important;
+    background-color: #6e41e2 !important;
+}
+
+.color-text{
+    color: #ffffff;
+}
+
+.img-blog{
+    max-width: 100%;
+    min-width: 600px;
+}
+
+.transparent{
+    border-radius: 16px;
+
+}
+
+@media only screen and (min-width: 590px) {
+    #purple-header{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 80vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #purple-header{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 23vw;
+    }
+    .card img{
+        max-height: 10rem;
+        object-fit: cover;
+    }
+    #seeMore{
+        max-width: 12vw;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #purple-header{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 25vw;
+    }
+    .card img{
+        max-height: 10rem;
+        object-fit: cover;
+    }
+}

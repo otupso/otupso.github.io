@@ -1,0 +1,25 @@
+h1{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.bg-purple{
+    background-color: #6e41e2;
+}
+.card-text{
+    color: black;
+}
+.custom-form{
+    border: 0px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+}
+.card{
+    border-radius: 8px;
+}
+.mt-6{
+    margin-top: 5rem;
+}
+select:invalid{
+    color: #808080;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Document</title>
+</head>
+<body class="bg-purple">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="../img/logo1.png" alt="" width="100rem" height="60rem" class="d-inline-block align-text-center">
+                Otupso
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOtupso" aria-controls="navbarOtupso" aria-expanded="false" aria-label="Expandir navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarOtupso">
+                <div class="navbar-nav ms-auto flex-nowrap">
+                    <a class="nav-link m-2 menu-item" href="./equipe.html">Equipe</a>
+                    <a class="nav-link m-2 menu-item nav-active" href="./pageProjects.html">Projetos</a>
+                    <a class="nav-link m-2 menu-item" href="./contactPage.html">Contato</a>
+                    <a class="btn btn-outline-primary m-2 menu-item" href="./blog.html">Blog</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-xl-5 mb-5">
+        <div class="row flex-column-reverse flex-md-row">
+            <div class="col-md-6">
+                <form action="POST">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <h3 class="card-title">Deixe seu contato</h3>
+                            <p class="card-text">Fale conosco!</p>
+
+                            <!--name form control-->
+                            <input type="name" class="form-control custom-form p-3" id="" aria-describedby="nameHelp" placeholder="Seu nome">
+
+                            <!--email form control-->
+                            <input type="email" class="form-control custom-form mt-3 p-3" id="" aria-describedby="emailHelp" placeholder="Seu email">
+
+                            <!--project type control-->
+                            <select required id="" class="form-select custom-form mt-3 p-3">
+                                <option value="" disabled selected hidden>Tipo de projeto</option>
+                                <option value="Website">Website</option>
+                            </select>
+
+                            <a href="#" class="btn btn-primary mt-3">Enviar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 mt-4 mt-xl-5 mb-3">
+                <h1>Gostou do que viu?</h1>
+                <p>Entre em contato conosco caso tenha se interessado pela equipe, iremos atendê-lo no prazo de 24h, fique atento! :)</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</html>
