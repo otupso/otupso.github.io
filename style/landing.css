@@ -1,0 +1,16 @@
+body{
+
+    background-color: #6E41E2;
+    overflow-x:hidden;
+}
+h1{
+    font-size: 3rem;
+    color: #000 !important;
+    font-weight: bolder;
+}
+p{
+    color: #000;
+}
+.btn-primary{
+    background-color: #6610f2 !important;
+}

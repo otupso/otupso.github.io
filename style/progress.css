@@ -1,52 +1,29 @@
+h1{
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+.btn-custom{
+    max-width: 86.84px !important;
+}
+.purple-header{
+    background-color: #6e41e2;
+    padding-bottom: 5rem;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+}
+.custom-img{
+    width: 600px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+}
 .progress{
     border-top-left-radius: .8rem !important;
     border-top-right-radius: .8rem !important;
 }
-
 .progress-bar{
     background-color: #27AE60 !important;
 }
-
-@media only screen and (min-width: 590px) {
-    #purple-header{
-        max-width: 100%;
-    }
-
-    .card{
-        max-width: 80vw;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #purple-header{
-        max-width: 100%;
-    }
-
-    .card{
-        max-width: 23vw;
-    }
-
-    .card img{
-        max-height: 10rem;
-        object-fit: cover;
-    }
-
-    #seeMore{
-        max-width: 12vw;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    #purple-header{
-        max-width: 100%;
-    }
-
-    .card{
-        max-width: 25vw;
-    }
-
-    .card img{
-        max-height: 10rem;
-        object-fit: cover;
-    }
+.badge-card-img{
+    max-width: 1.5rem;
 }
