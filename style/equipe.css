@@ -125,8 +125,13 @@ body {
     border: .2rem solid white;
     border-radius: 8px;
     padding: 1rem 2rem 1rem 2rem;
+    transition: .3s;
+ 
+}
 
-    
+a:hover{
+    background: black;
+
 }
 
 .main .body .card .footer .habilidades {
